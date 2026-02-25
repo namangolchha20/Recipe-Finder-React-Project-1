@@ -1,16 +1,40 @@
-# React + Vite
+# 🍲 Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React recipe search app that lets users explore meals, view details, and save favorites with a clean UI and dark mode support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🔎 **Live Recipe Search** – Search recipes by dish name with instant results (debounced API calls, no search button).
+- 📋 **Recipe Cards** – Each card shows image, title, category, region, and has expandable instructions.
+- ❤️ **Favorites System** – Add/remove recipes to favorites; sidebar with quick access and “clear all” option.
+- 🥗 **Vegetarian Filter** – Toggle to show only vegetarian recipes.
+- 🌙 **Dark Mode** – Toggle light/dark theme; persists via `useEffect` applying global body styles.
+- ⚡ **Smart UI States** – Loading spinner, empty state, and search prompt.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- JavaScript (ES6+)
+- CSS
+- [TheMealDB API](https://www.themealdb.com)
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/recipe-finder.git
+
+# Navigate to project
+cd recipe-finder
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
