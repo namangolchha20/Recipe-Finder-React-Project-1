@@ -1,6 +1,10 @@
 # 🍲 Recipe Finder
 A modern React recipe search app that lets users explore meals, view details, and save favorites with a clean UI and dark mode support.
 
+<p align="center">
+  🌐<a href="https://namangolchha20.github.io/Recipe-Finder-React-Project-1/">View Live Demo</a>
+</p>
+
 ---
 
 ## ✨ Features
